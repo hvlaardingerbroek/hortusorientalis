@@ -25,7 +25,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body { 
-  font: normal 'Crimson Text', arial, sans-serif;
+  font: normal .80em arial, sans-serif;
   background: #eeeeee url(../images/pattern.png);
   color: #444;
 }
@@ -65,7 +65,7 @@ h3 {
 h4, h6 { 
   color: #00AAD5;
   padding: 0 0 5px 0;
-  font: normal 160% 'Georgia', arial, sans-serif;
+  font: normal 160% 'News Cycle', arial, sans-serif;
 }
 
 h5, h6 { 
@@ -157,26 +157,16 @@ header {
 }
 
 #logo h1, #logo h2 { 
-  font: normal 520% 'Crimson Text', arial, sans-serif;
+  font: normal 320% 'News Cycle', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
-}
-
-#logo h1 { 
-  font-variant: small-caps;
-}
-
-#logo .logo_caps {
-  font-size: 80%;
 }
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
   padding: 0;
   color: #444;
   text-decoration: none;
-  margin-top: -20px;
-  margin-bottom: -20px;
 }
 
 #logo_text h1 a .logo_colour { 
@@ -199,17 +189,17 @@ nav {
   float: right;
   margin: -20px auto 0 auto;
   color: #222;
-  /* background: #ddd; /* Show a solid color for older browsers * /
+  background: #ddd; /* Show a solid color for older browsers */
   background: -moz-linear-gradient(#fff, #ddd);
   background: -o-linear-gradient(#fff, #ddd);
-  background: -webkit-linear-gradient(#fff, #ddd); */
+  background: -webkit-linear-gradient(#fff, #ddd);
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  /* border: 1px solid #eee;
+  border: 1px solid #eee;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px; */
+  -webkit-border: 7px 7px 7px 7px;
 } 
 
 #site_content { 
@@ -234,7 +224,7 @@ nav {
   
 .sidebar h3, .content h1 { 
   padding: 0 15px 20px 0;
-  font: 230% 'Georgia', arial, sans-serif;
+  font: 230% 'News Cycle', arial, sans-serif;
   text-shadow:  #FFF 1px 1px;
   margin: 0 1px;
   color: #444;
@@ -242,7 +232,7 @@ nav {
 
 .sidebar h3 { 
   color: #444;
-  font: 250% 'Georgia', arial, sans-serif;
+  font: 250% 'News Cycle', arial, sans-serif;
   padding: 0 15px 5px 0;
 }
 
@@ -265,7 +255,7 @@ nav {
 
 .content { 
   text-align: left;
-  width: 940px;
+  width: 670px;
   margin: 25px 0 0 0;
   float: left;
   font-size: 120%;
@@ -285,12 +275,11 @@ nav {
 
 footer { 
   width: 950px;
-  font: 120% 'Crimson Text', arial, sans-serif;
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
   height: 30px;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 20px 0;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  /* background: #ddd; /* Show a solid color for older browsers * /
+  background: #ddd; /* Show a solid color for older browsers */
   background: -moz-linear-gradient(#fff, #ddd);
   background: -o-linear-gradient(#fff, #ddd);
   background: -webkit-linear-gradient(#fff, #ddd);
@@ -300,7 +289,7 @@ footer {
   border: 1px solid #eee;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;*/
+  -webkit-border: 7px 7px 7px 7px;
 }
 
 footer p { 
@@ -309,7 +298,7 @@ footer p {
 }
 
 footer a { 
-  color: #444;
+  color: #222;
   text-decoration: none;
 }
 
@@ -538,7 +527,7 @@ ul#nav ul {
 
 ul#nav li a { 
   padding: 7px 25px 6px 25px;
-  font: small-caps 140% 'Crimson Text', arial, sans-serif;
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
   text-shadow: 1px 1px #fff;
   text-decoration: none;
   color: #222;
